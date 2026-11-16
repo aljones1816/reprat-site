@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="/icon.png" />
+  <link rel="apple-touch-icon" href="/icon.png" />
+  <title>Privacy Policy — Rep Rat</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #171717;
+      --card: #292929;
+      --accent: #F46A21;
+      --text: #FFF0D2;
+      --muted: #A6A29A;
+      --border: #353433;
+    }
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      padding: 3rem 1.5rem 5rem;
+    }
+    .container { max-width: 680px; margin: 0 auto; }
+    .back { display: inline-flex; align-items: center; gap: 0.5rem; color: var(--muted); font-size: 0.875rem; text-decoration: none; margin-bottom: 2.5rem; }
+    .back img { width: 24px; height: 24px; border-radius: 6px; }
+    .back:hover { color: var(--text); }
+    h1 { font-size: 2rem; font-weight: 700; margin-bottom: 0.5rem; }
+    .updated { font-size: 0.875rem; color: var(--muted); margin-bottom: 3rem; }
+    h2 { font-size: 1.1rem; font-weight: 600; margin: 2.5rem 0 0.75rem; }
+    p { font-size: 0.95rem; line-height: 1.75; color: #D9D2C3; margin-bottom: 0.75rem; }
+    ul { padding-left: 1.4rem; margin-bottom: 0.75rem; }
+    li { font-size: 0.95rem; line-height: 1.75; color: #D9D2C3; margin-bottom: 0.25rem; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    hr { border: none; border-top: 1px solid var(--border); margin: 2.5rem 0; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="/" class="back"><img src="/icon.png" alt="" />Rep Rat</a>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: November 2026</p>
+
+    <p>Rep Rat ("we", "our", or "us") is a workout tracking app built for iOS. We take your privacy seriously. This policy explains what data we collect, why, and how it is handled.</p>
+
+    <h2>1. Data You Create</h2>
+    <p>Rep Rat stores the following data you enter in the app:</p>
+    <ul>
+      <li>Workout sessions, exercises, sets, reps, and weights</li>
+      <li>Workout templates and routines</li>
+      <li>Bodyweight entries and weight goals</li>
+      <li>Personal records (PRs)</li>
+      <li>App settings and preferences</li>
+    </ul>
+    <p>By default, all of this data is stored locally on your device using an encrypted SQLite database. It never leaves your device unless you choose to enable Rep Rat Sync (see below).</p>
+
+    <h2>2. Account and Rep Rat Sync</h2>
+    <p>Rep Rat Sync is an optional paid feature. If you choose to enable it, you create an account using either your email address or Sign in with Apple. Your workout data is then synced to Google Firebase (Firestore), a cloud database service operated by Google LLC.</p>
+    <p>We use your account solely to associate your data with your identity for sync purposes. We do not use your email for marketing.</p>
+    <p>If you do not create an account, no personal information is collected or transmitted by us.</p>
+
+    <h2>3. Third-Party Services</h2>
+    <p>Rep Rat uses the following third-party services:</p>
+    <ul>
+      <li><strong>Google Firebase</strong> — cloud storage and authentication for Rep Rat Sync users. Data is stored in the United States. <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Privacy Policy</a>.</li>
+      <li><strong>RevenueCat</strong> — processes in-app purchases and subscriptions. RevenueCat may collect your device ID and purchase history. <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">RevenueCat Privacy Policy</a>.</li>
+      <li><strong>Apple Sign In</strong> — if you choose this login method, Apple handles authentication. Rep Rat only receives your Apple-assigned user ID and, on first sign-in, your name if you choose to share it.</li>
+    </ul>
+    <p>We do not use advertising networks, analytics SDKs, or any other tracking services.</p>
+
+    <h2>4. Data We Do Not Collect</h2>
+    <ul>
+      <li>We do not track your location</li>
+      <li>We do not collect device identifiers for advertising</li>
+      <li>We do not share or sell your data to third parties</li>
+      <li>We do not use your data to train machine learning models</li>
+    </ul>
+
+    <h2>5. Data Retention and Deletion</h2>
+    <p>Your local data remains on your device until you delete the app or use the "Clear All Data" option in the app's settings.</p>
+    <p>If you have a Rep Rat Sync account, you can delete your account and all associated cloud data at any time from Settings → Rep Rat Sync → Delete Account. Deletion is permanent and cannot be undone.</p>
+
+    <h2>6. Data Export</h2>
+    <p>You can export a full backup of your workout data in JSON format at any time from the Data section in the app. You own your data.</p>
+
+    <h2>7. Children's Privacy</h2>
+    <p>Rep Rat is not directed at children under 13. We do not knowingly collect personal information from children under 13.</p>
+
+    <h2>8. Changes to This Policy</h2>
+    <p>We may update this policy from time to time. Material changes will be reflected by an updated "Last updated" date at the top of this page.</p>
+
+    <h2>9. Contact</h2>
+    <p>If you have questions about this policy, contact us at <a href="mailto:support@waddly.net">support@waddly.net</a>.</p>
+
+    <hr />
+    <p style="font-size: 0.8rem; color: var(--muted);">© 2026 Waddly. All rights reserved.</p>
+  </div>
+</body>
+</html>

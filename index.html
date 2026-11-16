@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="/icon.png" />
+  <link rel="apple-touch-icon" href="/icon.png" />
+  <title>Rep Rat — Workout Tracker for iPhone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #171717;
+      --card: #292929;
+      --accent: #F46A21;
+      --text: #FFF0D2;
+      --muted: #A6A29A;
+      --border: #353433;
+    }
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1.5rem;
+    }
+    .container { max-width: 560px; width: 100%; text-align: center; }
+    .wordmark { font-size: 2.2rem; font-weight: 700; letter-spacing: -0.5px; margin-bottom: 0.75rem; }
+    .tagline { font-size: 1.1rem; color: var(--muted); margin-bottom: 2rem; line-height: 1.5; }
+    .links { display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; }
+    .links a {
+      color: var(--muted);
+      font-size: 0.9rem;
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+    .links a:hover { color: var(--text); }
+    .badge {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 0.25rem 0.6rem;
+      border-radius: 999px;
+      margin-bottom: 1.5rem;
+      letter-spacing: 0.3px;
+    }
+    .store { display: inline-block; background: var(--accent); color: #171717; font-weight: 600; font-size: 0.95rem; padding: 0.75rem 1.5rem; border-radius: 12px; text-decoration: none; margin-bottom: 1rem; }
+    .store:hover { opacity: 0.9; }
+    .formerly { color: var(--muted); font-size: 0.8rem; margin-bottom: 2.5rem; }
+    .app-icon {
+      width: 128px;
+      height: 128px;
+      border-radius: 29px;
+      margin-bottom: 1.25rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="/icon.png" alt="Rep Rat" class="app-icon" />
+    <div class="wordmark">Rep Rat</div>
+    <p class="tagline">Simple, private workout tracking.<br>Your data stays on your device.</p>
+    <a class="store" href="https://apps.apple.com/app/id6760949297">Download on the App Store</a>
+    <p class="formerly">Formerly SetLift. Same app, new name.</p>
+    <nav class="links">
+      <a href="/privacy">Privacy Policy</a>
+      <a href="/terms">Terms of Use</a>
+      <a href="/support">Support</a>
+    </nav>
+  </div>
+</body>
+</html>
