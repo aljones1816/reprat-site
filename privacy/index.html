@@ -57,12 +57,13 @@
       <li>Personal records (PRs)</li>
       <li>App settings and preferences</li>
     </ul>
-    <p>By default, all of this data is stored locally on your device using an encrypted SQLite database. It never leaves your device unless you choose to enable Rep Rat Sync (see below).</p>
+    <p>By default, all of this data is stored only on your device, in Rep Rat's private app storage. iOS protects that storage with its built-in data encryption whenever your device is locked with a passcode. Your data never leaves your device unless you choose to enable Rep Rat Sync (see below).</p>
 
     <h2>2. Account and Rep Rat Sync</h2>
     <p>Rep Rat Sync is an optional paid feature. If you choose to enable it, you create an account using either your email address or Sign in with Apple. Your workout data is then synced to Google Firebase (Firestore), a cloud database service operated by Google LLC.</p>
     <p>We use your account solely to associate your data with your identity for sync purposes. We do not use your email for marketing.</p>
     <p>If you do not create an account, no personal information is collected or transmitted by us.</p>
+    <p>Rep Rat Sync also offers optional cloud encryption. When it is turned on, your workout data is encrypted on your device with AES-256 before it is uploaded, using a key protected by a passphrase only you know. We cannot read encrypted workout data, and we cannot recover it if you forget your passphrase. Your account email and basic sync information, such as when a record was last updated, are not encrypted.</p>
 
     <h2>3. Third-Party Services</h2>
     <p>Rep Rat uses the following third-party services:</p>
